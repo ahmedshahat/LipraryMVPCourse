@@ -34,6 +34,7 @@
             this.button1 = new System.Windows.Forms.Button();
             this.checkBox1 = new System.Windows.Forms.CheckBox();
             this.checkedListBox1 = new System.Windows.Forms.CheckedListBox();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
             ((System.ComponentModel.ISupportInitialize)(this.ribbonControl1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -88,11 +89,20 @@
             this.checkedListBox1.Size = new System.Drawing.Size(120, 84);
             this.checkedListBox1.TabIndex = 3;
             // 
+            // comboBox1
+            // 
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Location = new System.Drawing.Point(569, 260);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(121, 21);
+            this.comboBox1.TabIndex = 4;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(758, 360);
+            this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.checkedListBox1);
             this.Controls.Add(this.checkBox1);
             this.Controls.Add(this.button1);
@@ -114,6 +124,7 @@
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.CheckBox checkBox1;
         private System.Windows.Forms.CheckedListBox checkedListBox1;
+        private System.Windows.Forms.ComboBox comboBox1;
     }
 }
 
