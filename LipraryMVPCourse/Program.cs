@@ -19,7 +19,7 @@ namespace LipraryMVPCourse
             Application.SetCompatibleTextRenderingDefault(false);
 
             BonusSkins.Register();
-            Application.Run(new Form1());
+            Application.Run(new Views.Frm_Main());
         }
     }
 }
